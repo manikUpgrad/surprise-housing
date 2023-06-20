@@ -1,23 +1,40 @@
-# AdvancedRegression-SurpriseHousing
- Surprise housing dataset using lasso and ridge regression
+# Advanced Regression Analysis - Surprise Housing
 
-A US-based housing company named Surprise Housing has decided to enter the Australian market. The company uses data analytics to purchase houses at a price below their actual values and flip them on at a higher price. For the same purpose, the company has collected a data set from the sale of houses in Australia. The data is provided in the CSV file below.
- 
+Welcome to the Advanced Regression Analysis project for Surprise Housing. This repository is dedicated to understanding
+the housing market dynamics in Australia, leveraging machine learning methodologies to predict house prices. Surprise
+Housing, a US-based firm, intends to utilize this data-driven approach to identify undervalued properties and generate a
+substantial return on investment.
 
-The company is looking at prospective properties to buy to enter the market. You are required to build a regression model using regularisation in order to predict the actual value of the prospective properties and decide whether to invest in them or not.
+## Project Overview
 
- 
+The crux of this project involves constructing a predictive model using Ridge and Lasso regression, regularisation
+techniques that prevent overfitting and allow for better model performance. This model aims to determine the fair market
+value of potential investment properties, enabling the company to make informed purchasing decisions.
 
-### The company wants to know:
-- Which variables are significant in predicting the price of a house
-- How well those variables describe the price of a house.
+Key questions this analysis seeks to answer:
 
- Also, determine the optimal value of lambda for ridge and lasso regression.
+- What are the significant variables that influence the price of a house?
+- How well do these variables explain the variation in house prices?
+- What are the optimal values of lambda for Ridge and Lasso regression?
 
- 
+These insights will play a crucial role in guiding the company's strategy. By understanding how prices fluctuate with
+different variables, the firm can concentrate its efforts on areas that promise high returns, providing a solid entry
+point into a new market.
 
-### Business Goal  
+## Repository Contents
 
-You are required to model the price of houses with the available independent variables. This model will then be used by the management to understand how exactly the prices vary with the variables. They can accordingly manipulate the strategy of the firm and concentrate on areas that will yield high returns. Further, the model will be a good way for management to understand the pricing dynamics of a new market.
+This repository contains the following files and directories:
 
- 
+1. **advanced-regression.ipynb**: This Jupyter notebook contains all the Python code used for data exploration,
+   preprocessing, model construction, and evaluation.
+
+2. **subjective-questions.pdf**: This document provides detailed answers to the subjective questions posed in the
+   assignment, offering further insights into the data and the modelling approach.
+
+3. **readme.md**: You're reading it! This file offers an overview of the project, its objectives, and the contents of
+   this repository.
+
+4. **data directory**: This directory houses the datasets utilized for the analysis in CSV format.
+
+We encourage you to explore the Jupyter notebook and the answers to the subjective questions for a deep dive into the
+data analysis and modelling process. Enjoy navigating through the dynamics of the Australian housing market!
